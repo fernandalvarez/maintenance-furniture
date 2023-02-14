@@ -1,5 +1,8 @@
 package modelo;
-
+    /**
+     * @author Fernanda Alvarez
+     * @since 1.0
+     */
 public class Client {
     private int id_client;
     private String name;
