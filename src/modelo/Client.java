@@ -1,5 +1,8 @@
 package modelo;
-
+    /**
+     * @author Fernanda Alvarez
+     * @since 1.0
+     */
 public class Client {
     private int id_client;
     private String name;
@@ -11,6 +14,12 @@ public class Client {
         
     }
 
+    public Client(int id_client,String name,String addres,int phone){
+        setId_client(id_client);
+        setName(name);
+        setAddres(addres);
+        setPhone(phone);
+    }
     // method get 
     public int getId_client(){
         return id_client;
