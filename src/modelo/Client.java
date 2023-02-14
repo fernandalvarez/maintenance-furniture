@@ -16,10 +16,11 @@ public class Client {
 
     public Client(int id_client,String name,String addres,int phone){
         setId_client(id_client);
-        setName(name);
+        setName(name); 
         setAddres(addres);
         setPhone(phone);
     }
+
     // method get 
     public int getId_client(){
         return id_client;
